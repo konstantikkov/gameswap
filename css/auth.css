@@ -1,0 +1,48 @@
+.main-content-title {
+    font-size: 160%;
+    line-height: 160%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    width: 30%;
+    max-width: 400px;
+    min-width: 280px;
+    margin: auto;
+}
+
+.simple-form {
+    background: white;
+    padding: 10%;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.simple-form > .simple-form-data-field {
+    margin-bottom: 30px;
+}
+
+.simple-form > .simple-form-data-field > name {
+    float:left;
+    font-size: 90%;
+    margin-bottom: 10px;
+}
+
+.simple-form > .simple-form-data-field > input, .simple-form > input {
+    width: 100%;
+}
+
+
+
+
+.description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    /* or 130% */
+    text-align: center;
+    color: #7C7C7C;
+}

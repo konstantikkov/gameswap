@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "VAG world";
+    src: url('../font/VAG_WORLD.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;  
+    -moz-user-select: none;  
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-color: #EEEFF3;
+    font-weight: bold;
+    font-family: "VAG world";
+    font-size: 160%;
+    line-height: 100%;
+    margin: auto;
+}
+
+.header-content {
+    height: 120px;
+    line-height: 140%;
+    width:60%;
+    margin:auto;
+}
+
+.footer {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    float: left;
+    height: 120px;
+}
+
+.logo>svg {
+    vertical-align: middle;
+}
+
+.auth {
+    display: inline-flex;
+    align-items: center;
+    float: right;
+    height: 120px;
+}
+
+.button {
+    font-family: "VAG world";
+    font-size: 70%;
+    padding: 0 30px 0 30px;
+    background: none;
+    border: none;
+    border-radius: 33.5px;
+    outline: none;
+}
+
+
+.button-active {
+    background: linear-gradient(339.91deg, #4B47FF -18.37%, #49FFD3 113.78%);
+}
+
+.button-active {
+    color: white;
+}
+
+.bText {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: super;
+}
+
+input {
+    width:80%;
+    padding-left: 1%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size:75%;
+}
+
+input:focus {
+    outline: none;
+}
