@@ -28,11 +28,10 @@ body {
 
 .header-content {
     height: 120px;
-    line-height: 140%;
     width:60%;
     margin:auto;
+    text-align: center;
 }
-
 .footer {
     display: none;
 }
@@ -45,8 +44,8 @@ a {
 .logo {
     display: inline-flex;
     align-items: center;
-    float: left;
     height: 120px;
+    float:left;
 }
 
 .logo>svg {
@@ -73,9 +72,7 @@ a {
 
 .button-active {
     background: linear-gradient(339.91deg, #4B47FF -18.37%, #49FFD3 113.78%);
-}
-
-.button-active {
+    padding: 0 15px 0 15px;
     color: white;
 }
 
@@ -87,14 +84,13 @@ a {
 
 input {
     width:80%;
-    padding-left: 1%;
+    padding-left: 2%;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.11);
     box-sizing: border-box;
     border-radius: 10px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size:75%;
+    font-family: "VAG world";
+    font-size:60%;
 }
 
 input:focus {
